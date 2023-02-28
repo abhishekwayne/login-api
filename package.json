@@ -1,0 +1,36 @@
+{
+  "name": "bfl",
+  "version": "1.0.0",
+  "description": "Assigment",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dattasai611@bitbucket.org/dattasai611/bfl.git"
+  },
+  "author": "dattasai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/dattasai611/bfl/issues"
+  },
+  "homepage": "https://bitbucket.org/dattasai611/bfl#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-http-proxy": "^1.6.3",
+    "jsonwebtoken": "^9.0.0",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^6.8.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "unirest": "^0.6.0",
+    "validator": "^13.7.0"
+  }
+}
